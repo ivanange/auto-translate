@@ -20,5 +20,13 @@
     },
     "require-dev": {
         "spatie/laravel-package-tools": "^1.9"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Devaslanphp\\AutoTranslate\\AutoTranslateProvider"
+            ],
+            "aliases": {}
+        }
     }
 }
